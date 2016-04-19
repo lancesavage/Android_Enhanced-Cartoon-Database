@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Confirm Delete"
+    	android:gravity="center_horizontal"
+    />
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+	>
+		<TableRow android:gravity="center_horizontal">
+			<TextView  
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text="Cartoon:"
+    			android:id="@+id/tvCartoonL"
+    		/>
+    		
+    		<TextView  
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text=""
+    			android:id="@+id/tvCartoonD"
+    		/>
+    		</TableRow>
+    		
+    		<TableRow android:gravity="center_horizontal">
+    		<TextView  
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text="Character:"
+    			android:id="@+id/tvCharacterL"
+    		/>
+    		
+    		<TextView  
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text=""
+    			android:id="@+id/tvCharacterD"
+    		/>
+    		</TableRow>
+    		<TableRow android:gravity="center_horizontal">
+    		
+    		<TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text="Age:"
+    			android:id="@+id/tvAgeL"
+    		
+    		/>
+    		
+    		<TextView  
+    			android:layout_width="fill_parent" 
+    			android:layout_height="wrap_content" 
+    			android:text=""
+    			android:id="@+id/tvAgeD"
+    		/>
+    	</TableRow>
+    </TableLayout>
+    <LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center_horizontal"
+    >
+    
+    	<Button 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    	 	android:text="Delete"
+    	 	android:id="@+id/btnDelD"
+    	/>
+    
+    	<Button
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    	 	android:text="Cancel Delete"
+    	 	android:id="@+id/btnCanD"
+    	/>
+    
+    </LinearLayout>
+
+</LinearLayout>

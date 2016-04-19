@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Enter information to add"
+    android:gravity="center_horizontal"
+    />
+    
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal" 
+   	>
+    	<TableRow android:gravity="center_horizontal">
+    
+    		<TextView 
+     			android:layout_width="fill_parent" 
+     			android:layout_height="wrap_content" 
+     			android:text="Cartoon"
+     			android:gravity="center_horizontal"
+     		/>
+    
+    		<EditText
+    			android:layout_width="fill_parent" 
+     			android:layout_height="wrap_content" 
+     			android:id="@+id/etCartoon"
+     			android:gravity="center_horizontal"	
+    		/>
+    
+    	</TableRow>
+    
+    <TableRow android:gravity="center_horizontal">
+    
+    		<TextView 
+     			android:layout_width="fill_parent" 
+     			android:layout_height="wrap_content" 
+     			android:text="Character"
+     			android:gravity="center_horizontal"
+     		/>
+    
+    		<EditText
+    			android:layout_width="fill_parent" 
+     			android:layout_height="wrap_content" 
+     			android:id="@+id/etCharacter"	
+    			android:gravity="center_horizontal"
+    		/>
+    
+    </TableRow>
+    
+    <TableRow android:gravity="center_horizontal">
+    
+    	<TextView 
+    		android:layout_width="fill_parent" 
+     		android:layout_height="wrap_content" 
+     		android:text="Age"
+     		android:gravity="center_horizontal"
+     	/>
+
+    	<Spinner 
+        	android:id="@+id/spinner"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:prompt="@string/age"
+        	android:gravity="center_horizontal"
+    	/>
+
+    
+    </TableRow>
+    
+    <TableRow android:gravity="center_horizontal">
+    
+    	<Button 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+     		android:text="Add"
+     		android:id="@+id/btnAddA"
+     		android:gravity="center_horizontal"
+    	/>
+    
+    	<Button
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+     		android:text="Close"
+     		android:id="@+id/btnCloseA"
+     		android:gravity="center_horizontal"
+    	/>
+    
+    </TableRow>
+    
+    </TableLayout>
+ 
+</LinearLayout>
